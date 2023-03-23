@@ -1,11 +1,18 @@
 {
-    "packageDirectories": [
-        {
-            "path": "sfdx-source/apex-common",
-            "default": true
-        }
-    ],
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "55.0"
+  "packageDirectories": [
+    {
+      "path": "sfdx-source/apex-common",
+      "default": true,
+      "package": "fflib-apex-common",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "fflib-apex-common": "0Ho5f000000PBNtCAO"
+  }
 }
