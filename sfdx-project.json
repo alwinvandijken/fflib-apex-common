@@ -4,15 +4,24 @@
       "path": "sfdx-source/apex-common",
       "default": true,
       "package": "fflib-apex-common",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "versionDescription": ""
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": "",
+      "dependencies": [
+        {
+          "package": "fflib-apex-mocks",
+          "versionNumber": "1.0.0.LATEST"
+        }
+      ]
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "55.0",
   "packageAliases": {
-    "fflib-apex-common": "0Ho5f000000PBNtCAO"
+    "fflib-apex-common": "0Ho5f000000PBNtCAO",
+    "fflib-apex-mocks": "0Ho5f000000PBNoCAO",
+    "fflib-apex-common@0.1.0-1": "04t5f000000Joi0AAC",
+    "fflib-apex-common@1.0.0-1": "04t5f000000Joi5AAC"
   }
 }
